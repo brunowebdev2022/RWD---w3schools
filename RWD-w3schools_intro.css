@@ -86,34 +86,43 @@ header {
 }
 
 @media (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+
     #city-main {
         display: flex;
         flex-direction: column;
     }
     #city-exp-def {
-        width: 100%;
+        width: auto;
     }
     #city-know {
-        width: 100%;
+        width: auto;
     }
 }
 
 @media (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+    
     #city-main {
         display: flex;
         flex-direction: column;
     }
     #city-exp-def {
-        width: 100%;
+        width: auto;
         flex-direction: column;
     }
 
     #city-explore, #city-definition {
-        width: 100%;
+        width: auto;
+        text-align: center;
     }
 
     #city-know {
-        width: 100%;
+        width: auto;
     }
 }
 
